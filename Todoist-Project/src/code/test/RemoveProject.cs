@@ -23,7 +23,7 @@ namespace Todoist_Project.src.code.test
             deleteProject.OpenExistingProjectField();
             deleteProject.DeleteExistingProject();
             //Verify project
-            Assert.IsFalse(createProject.ProjectNameIsDisplayed("Project-Mojix-Edit"), "ERROR!The project was not edited correctly");
+            Assert.IsFalse(createProject.ProjectNameIsDisplayed("Project-Mojix-Edit"), "ERROR!The project was not removed");
             Thread.Sleep(3000);
         }
     }
